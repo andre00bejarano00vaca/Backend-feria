@@ -18,7 +18,7 @@ public class FeriaapiApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("http://localhost:3000").allowedMethods("*").allowedHeaders("*");
+				registry.addMapping("/**").allowedOrigins("feria-grupo82-d4r6-1ylps3aym.vercel.app").allowedMethods("*").allowedHeaders("*");
 			}
 		};
 	}
